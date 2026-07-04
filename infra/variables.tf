@@ -32,4 +32,5 @@ variable "ssh_public_key" {
   description = "SSH公開鍵の内容（~/.ssh/id_rsa.pub の中身など）"
   type        = string
   sensitive   = true
+  default     = ""
 }
