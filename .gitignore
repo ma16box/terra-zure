@@ -1,0 +1,17 @@
+# Terraformのローカルキャッシュ・作業ファイル
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+*.tfvars
+*.tfvars.json
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# CLI設定ファイル（認証情報を含む可能性があるため）
+.terraformrc
+terraform.rc
