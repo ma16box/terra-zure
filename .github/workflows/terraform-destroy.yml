@@ -36,4 +36,4 @@ jobs:
         run: terraform init
 
       - name: Terraform Destroy
-        run: terraform destroy -auto-approve
+        run: terraform destroy -auto-approve -var="ssh_public_key=ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCdummy dummy@example.com"
